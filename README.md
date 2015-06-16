@@ -6,11 +6,22 @@ This app is for anyone who's ever been out with indecisive friends that can't fi
 
 For inspiration, look at [LunchFinder](http://lunchfinder.herokuapp.com)
 
-Create a Twilio based tool where someone can call in, enter a 5 digit code, and record a short message. Then anyone else can call into that same number, enter the same code, and listen to the messages left in reverse chronological order. They can then also leave their own message that others can hear. This is inspired by a very funny This American Life story. 
-
 ## Basic Requirements: 
-* User enters a 5 digit code to channel into a thread and hears the messages on that thread in reverse order
-* User can enter the number 1 at any time to add their own message
+* User can see a short list of the top 5 lunch locations near them
+* User shouldn't have to enter their location
+* User can see relevant metadata for each location, including name, address, and phone number
+* Get it live on Heroku!
+
+## Optional Requirements:
+*  Allow user to specify a max walking distance. You'll have to make some assumptions about how fast a human can walk
+*  Only display locations that are currently open 
+*  Make it look nicer!
+
+## Anti-Requirements:
+This is meant to be a short beginner exercise. DO NOT do the following.
+* Try to make a single page app
+* Use any Javascript framework, except for jQuery and/or underscore
+* Authenticate users
 
 ## Suggested Technologies:
 * Sinatra
